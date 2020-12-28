@@ -1,0 +1,38 @@
+'// Cake Variety Creator with Abbreviations';
+for (var size of [
+        '1/8 Sheet',
+        '1/4 Sheet',
+        '1/2 Sheet'
+    ]) {
+    for (var type of [
+            'White Cake',
+            'Chocolate Cake',
+            'Yellow Cake',
+            'Marble Cake',
+            //'Carrot',//is this on the sales floor?
+            //'Strawberry',//VG's Only
+            //'Cherry',//is this on the sales floor?
+            //'Banana',//is this on the sales floor?
+            //'Temptation',//is this on the sales floor?
+            //'Special Order'
+        ]) {
+            for(var icing of [
+                'Buttercream',
+                'Whipped Icing',
+
+            ]) {
+                for (var upcharge of [
+                    ' ',
+                    '+ Add On',
+                    '+ Photo & Toy',
+                    '+ Filling',
+                    '+ Filling & Add On',
+                    '+ Filling,Photo & Toy',
+                    //'+ Toy', Using "Add On" as a substitute for either toy or photo
+                    
+                ]) {
+                    print (size + ' ' + type + ' w/ ' + icing + ' ' + upcharge)
+                }
+            }
+    }
+}
