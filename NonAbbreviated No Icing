@@ -1,0 +1,24 @@
+// Oversimplified Cake Engine!
+for (var size of [
+    '1/8 Sheet',
+    '1/4 Sheet',
+    '1/2 Sheet'
+    ]) {
+        for (var type of [
+            'White',
+            'Chocolate',
+            'Yellow',
+            'Marble'
+            ]) {
+                for (var upcharge of [
+                    ' ',
+                    '+ Add On',
+                    '+ Photo & Toy',
+                    '+ Filling',
+                    '+ Filling + Add On',
+                    '+ Filling, Photo & Toy'
+                    ]) {
+                        print(size + ' ' + type + ' Cake ' + upcharge)
+                    }
+            }
+    }
